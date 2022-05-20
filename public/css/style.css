@@ -1,0 +1,99 @@
+
+/* Reset */
+
+*, *:before, *:after {
+	box-sizing:	inherit;
+	font-size:	16px;
+	margin:		0;
+	padding:	0;
+}
+
+
+
+/* Substrate */
+
+html, body {
+    width: 100%;
+    height: 100%;
+
+    background-color: #EAEAEA;
+    color: #282828;
+}
+
+
+
+/* Main components */
+
+header, footer {
+    padding: 1.6em;
+
+    text-align: center;
+
+    background-color: #AAA;
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin-top: 2em;
+}
+
+
+nav {
+    background-color: #CCC;
+}
+nav div {
+    width: 80%;
+    margin: auto;
+    padding: 0.7em 0;
+}
+
+
+main {
+    width: 80%;
+    margin: auto;
+}
+
+
+
+/* Sections */
+
+article {
+    margin: 1.3em;
+}
+
+
+table {
+    width: 100%;
+    border: 1px solid #282828;
+}
+thead {
+    background-color: #DDD;
+}
+thead tr td {
+    padding: 0.35em;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+
+/* Single elements. */
+
+h1 {
+    font-size: 2.2em;
+}
+h2 {
+    font-size: 1.65em;
+    text-align: center;
+    padding: 0.7em 0;
+}
+h3 {
+    font-size: 1.3em;
+    padding: 0.35em 0;
+}
+
+
+.done {
+    text-decoration: line-through;
+}

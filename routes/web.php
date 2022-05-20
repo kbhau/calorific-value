@@ -14,5 +14,13 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    $data = DB::table('calorific_values')
+        ->join('locations', 'calorific_values.location_id', '=', 'locations.id')
+        ->select('calorific_values.applicable_for', 'locations.name', 'calorific_values.value')
+        ->get();
+    return view('pages.index', ["data" => $data]);
+});
+
+Route::get('/wip', function () {
+    return view('pages.wip');
 });
