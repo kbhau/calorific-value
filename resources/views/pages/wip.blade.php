@@ -22,7 +22,7 @@
             <li class="done">Run and debug migration</li>
             <li class="done">Create data view</li>
             <li class="done">Debug data view</li>
-            <li class="todo">Update repository</li>
+            <li class="done">Update repository</li>
         </ul>
     </article>
 
